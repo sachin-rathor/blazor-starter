@@ -26,7 +26,7 @@ jobs:
           repo_token: ${{ secrets.GITHUB_TOKEN }} # Used for Github integrations (i.e. PR comments)
           action: "upload"
           skip_app_build: true
-#           app_build_command: "–platform \"dotnet\" -platform-version \"7.0.100-rc.1\""
+          app_build_command: "dotnet run --project Client/Client.csproj --api-location ApiIsolated –platform dotnet -platform-version 7.0.100-rc.1"
 #           platform: "dotnet"
 #           platform-version: "7.0.100-rc.1"
           ###### Repository/Build Configurations - These values can be configured to match your app requirements. ######
