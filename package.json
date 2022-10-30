@@ -1,8 +1,8 @@
 {
   "name": "blazor-starter",
   "version": "1.0.0",
-  "sdk": {
-   "version": "7.0.100-rc.1*"
+  "engines": {
+   "dotnet": "7.0.100-rc.1*"
   }
   "scripts": {
     "start": "swa start http://localhost:5000 --run 'dotnet run --project Client/Client.csproj' --api-location Api",
