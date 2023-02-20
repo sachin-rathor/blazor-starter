@@ -3,6 +3,6 @@
         "rewrite": "/index.html"
     },
     "platform": {
-        "apiRuntime": "dotnet-isolated:6.0"
+        "apiRuntime": "dotnet:6.0"
     }
 }
